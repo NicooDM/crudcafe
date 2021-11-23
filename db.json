@@ -1,24 +1,25 @@
 {
-  "posts": [
+  "productos": [
     {
       "id": 1,
       "nombreProducto": "Cafe con leche",
       "precio": "50",
       "Categoria":"Caliente"
-    }
-  ],
-  "comments": [
+    },
+  
+  
     {
       "id": 2,
       "nombreProducto": "Te de Manzanilla",
       "precio": "50",
       "Categoria":"Caliente"
-    }
-  ],
-  "profile": {
+    },
+
+  {
     "id": 3,
       "nombreProducto": "Batidos",
       "precio": "60",
       "Categoria":"Frios"
   }
+]
 }
