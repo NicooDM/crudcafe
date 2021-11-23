@@ -2,7 +2,7 @@ import React from "react";
 import { Container, ListGroup, Button } from "react-bootstrap";
 import ItemProducto from "./ItemProducto"
 
-const ListaProducto = () => {
+const ListaProducto = (props) => {
   return (
     <div>
       <Container className="my-5">
@@ -13,7 +13,10 @@ const ListaProducto = () => {
           <Button variant="primary">Agregar</Button>
         </article>
         <ListGroup>
-          <ItemProducto></ItemProducto>
+          {
+            props.productos.map((producto)=><ItemProducto key={producto.id}producto={producto}></ItemProducto>)
+          }
+          
         </ListGroup>
       </Container>
     </div>

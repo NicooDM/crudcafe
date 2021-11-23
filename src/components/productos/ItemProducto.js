@@ -6,8 +6,8 @@ const ItemProducto = () => {
     <div>
       <ListGroup.Item className="d-flex justify-content-between">
         <p>
-          Lorem ipsum dolor sit.
-          <span className="fw-bolder">- Precio: 50</span>
+          {props.producto.nombreProducto}
+          <span className="fw-bolder">- Precio:$ {props.producto.precioProducto}</span>
         </p>
         <div>
           <Button variant="warning">Editar</Button>
