@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, ListGroup, Button } from "react-bootstrap";
-import itemProducto from "./ItemProducto";
+import ItemProducto from "./ItemProducto"
 
 const ListaProducto = () => {
   return (
