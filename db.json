@@ -2,24 +2,21 @@
   "productos": [
     {
       "id": 1,
-      "nombreProducto": "Cafe con leche",
-      "precio": "50",
-      "Categoria":"Caliente"
+      "nombreProducto": "Té de manzanilla",
+      "precioProducto": "40",
+      "categoria": "bebida-caliente"
     },
-  
-  
     {
       "id": 2,
-      "nombreProducto": "Te de Manzanilla",
-      "precio": "50",
-      "Categoria":"Caliente"
+      "nombreProducto": "Café con leche",
+      "precioProducto": "60",
+      "categoria": "bebida-caliente"
     },
-
-  {
-    "id": 3,
-      "nombreProducto": "Batidos",
-      "precio": "60",
-      "Categoria":"Frios"
-  }
-]
+    {
+      "id": 3,
+      "nombreProducto": "Medialuna x unidad",
+      "precioProducto": "35",
+      "categoria": "dulce"
+    }
+  ]
 }

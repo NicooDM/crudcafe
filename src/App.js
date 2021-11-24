@@ -17,15 +17,18 @@ function App() {
   useEffect(() => {
     consultarAPI();
   }, []);
-  const consultarAPI = async () => {
-    try {
+  const consultarAPI = async() =>{
+    try{
+      // codigo que ejecuto normalmente
       const respuesta = await fetch(URL);
       const datos = await respuesta.json();
-      setProductos = datos;
-    } catch (error) {
+      // console.log(respuesta);
+      console.log(datos)
+      setProductos(datos);
+    }catch(error){
       console.log(error);
     }
-  };
+  }
   return (
     <>
       <Router>

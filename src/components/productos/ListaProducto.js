@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, ListGroup, Button } from "react-bootstrap";
+import { Container, ListGroup } from "react-bootstrap";
 import ItemProducto from "./ItemProducto"
 import {Link} from "react-router-dom"
 
@@ -15,7 +15,7 @@ const ListaProducto = (props) => {
         </article>
         <ListGroup>
           {
-            props.productos.map((producto)=><ItemProducto key={producto.id}producto={producto}></ItemProducto>)
+            props.productos.map((productos)=><ItemProducto key={productos.id}producto={productos}></ItemProducto>)
           }
           
         </ListGroup>
