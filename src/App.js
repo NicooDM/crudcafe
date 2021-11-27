@@ -43,7 +43,7 @@ function App() {
           <Route
             exact
             path="/productos/nuevo"
-            element={<AgregarProducto></AgregarProducto>}
+            element={<AgregarProducto consultarAPI={consultarAPI}></AgregarProducto>}
           ></Route>
           <Route
             exact

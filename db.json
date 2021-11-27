@@ -35,6 +35,18 @@
       "precioProducto": "180",
       "categoria": "bebida-fria",
       "id": 6
+    },
+    {
+      "nombreProducto": "Mirinda Manzana",
+      "precioProducto": "180",
+      "categoria": "bebida-fria",
+      "id": 7
+    },
+    {
+      "nombreProducto": "Fanta Naranja",
+      "precioProducto": "250",
+      "categoria": "bebida-fria",
+      "id": 8
     }
   ]
 }
