@@ -17,6 +17,24 @@
       "nombreProducto": "Medialuna x unidad",
       "precioProducto": "35",
       "categoria": "dulce"
+    },
+    {
+      "nombreProducto": "Café Irlandes",
+      "precioProducto": "180",
+      "categoria": "bebida-caliente",
+      "id": 4
+    },
+    {
+      "nombreProducto": "Coca Cola",
+      "precioProducto": "250",
+      "categoria": "bebida-fria",
+      "id": 5
+    },
+    {
+      "nombreProducto": "Pepsi",
+      "precioProducto": "180",
+      "categoria": "bebida-fria",
+      "id": 6
     }
   ]
 }
