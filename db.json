@@ -1,18 +1,6 @@
 {
   "productos": [
     {
-      "id": 2,
-      "nombreProducto": "Café con leche",
-      "precioProducto": "60",
-      "categoria": "bebida-caliente"
-    },
-    {
-      "id": 3,
-      "nombreProducto": "Medialuna x unidad",
-      "precioProducto": "35",
-      "categoria": "dulce"
-    },
-    {
       "nombreProducto": "Café Irlandes",
       "precioProducto": "180",
       "categoria": "bebida-caliente",
@@ -29,12 +17,6 @@
       "precioProducto": "180",
       "categoria": "bebida-fria",
       "id": 6
-    },
-    {
-      "nombreProducto": "Mirinda Manzana",
-      "precioProducto": "180",
-      "categoria": "bebida-fria",
-      "id": 7
     }
   ]
 }
