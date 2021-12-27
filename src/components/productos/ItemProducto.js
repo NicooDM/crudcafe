@@ -17,7 +17,7 @@ const eliminarProducto= ()=>{
   }).then(async (result) => {
     //pasos para pedirle a la API , borrar el producto
     try{
-      const URL = process.env.REACT_APP_API_URL+'/'+props.producto.id
+      const URL = process.env.REACT_APP_API_URL+'/'+props.producto._id
       const respuesta = await fetch (URL,{
         method:"DELETE",
         headers:{
